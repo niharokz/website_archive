@@ -1,0 +1,70 @@
+html.dark body {
+  color: #ddd;
+  background-color: #000;
+}
+
+html.dark ::-moz-selection {
+  background: #aaaaaa;
+  color: #fff;
+  text-shadow: none
+}
+
+html.dark ::selection {
+  background: #aaaaaa;
+  color: #fff;
+  text-shadow: none
+}
+
+html.dark hr {
+  border-color: #FF0000;
+}
+
+html.dark blockquote {
+  border-color: #ddd;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #ddd;
+}
+
+html.dark a,a:hover {
+  color: #e68080;
+  text-decoration: none;
+}
+
+html.dark table tbody tr:nth-of-type(even) {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+html.dark .site-description a,
+html.dark .site-description a:hover {
+  color: #e68080;
+}
+
+html.dark a:hover {
+  opacity: 0.8;
+}
+
+html.dark .post-tags .tags a {
+  border: 1px solid #ddd;
+  color: #e68080;
+}
+
+html.dark .site-title a {
+  color: #ddd;
+  text-decoration: none !important;
+}
+
+html.dark .header nav,
+html.dark .footer {
+  border-color: #333;
+}
+
+html.dark .highlight {
+  background-color: #333;
+}

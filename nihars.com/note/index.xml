@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Nihar Samantaray</title>
+    <link>https://nihars.com/note/</link>
+    <description>Recent content in Notes on Nihar Samantaray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 01:36:56 +0200</lastBuildDate>
+    
+	<atom:link href="https://nihars.com/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World&#39;s Oldest Desert</title>
+      <link>https://nihars.com/note/journey_oldest_desert/</link>
+      <pubDate>Fri, 26 Apr 2019 01:36:56 +0200</pubDate>
+      
+      <guid>https://nihars.com/note/journey_oldest_desert/</guid>
+      <description>Namibia -Kalahari desert is one of the oldest desert in the world. Some even say this is the oldest desert in the world. A visit to this part of worth is worth it.
+First attempt to make a vlog type video.   </description>
+    </item>
+    
+    <item>
+      <title>Introductory Note</title>
+      <link>https://nihars.com/note/introductory-note/</link>
+      <pubDate>Tue, 16 Aug 2016 18:00:46 +0200</pubDate>
+      
+      <guid>https://nihars.com/note/introductory-note/</guid>
+      <description>Hello! I am glad that you visited my Note. I assumed that I will not get any traffic in my Note. But you are here, making my assumption wrong.
+Writing the first post for Note is often a struggle, isn&amp;rsquo;t ? After spending a lot of time thinking and googling, I concluded that there is no perfect way to start a Note. But writing a simple and tl;dr introduction can do my work.</description>
+    </item>
+    
+  </channel>
+</rss>

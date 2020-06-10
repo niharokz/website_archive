@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Nihar Samantaray</title>
+    <link>https://nihars.com/project/</link>
+    <description>Recent content in Projects on Nihar Samantaray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 May 2020 12:24:55 +0200</lastBuildDate>
+    
+	<atom:link href="https://nihars.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Website</title>
+      <link>https://nihars.com/project/website/</link>
+      <pubDate>Sat, 23 May 2020 12:24:55 +0200</pubDate>
+      
+      <guid>https://nihars.com/project/website/</guid>
+      <description>Not a front end developer. But this is something I grew up with. Here is my collection of few random websites/blogs from yester years.
+ Old Porfolio Website Previous design of this website 2012-2018. techxcode Another blogspot experiment in 2014. The Computer Wizards Blogspot based tech blog 2013. g8write Second attempt to blog in 2012. niharwrite My First blog 2011.  </description>
+    </item>
+    
+  </channel>
+</rss>
