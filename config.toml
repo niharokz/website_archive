@@ -1,4 +1,4 @@
-baseURL = "https://niharokz.gitlab.io/nihars.com/"
+baseURL = "https://nihars.com/"
 languageCode = "en-us"
 title = "Nihar Samantaray"
 theme = "hugo-ink"
