@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
+{{ partial "header.html" . }}
+<body>
+	<div class="container wrapper">
+		{{ partial "head.html" . }}
+
+		<div class="recent-posts section">
+			<div class="markdown">
+				<p>Hello everyone, this is Nihar, a System Engineer at Edgeverve, Infosys, Bangalore, Karnataka. I am passionate about amazing technology, ideas that matters, writing clean code. You can also ping me up at <a href="https://www.facebook.com/niharokz">facebook</a>, 
+			<a href="https://twitter.com/niharokz">twitter</a>, 
+			<a href="https://www.linkedin.com/in/niharsamantaray">linkedin</a>; otherwise have a great day</p>
+				</div>
+				<br>	<div class="posts">
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages}}
+					<div class="post">
+						<div class="post-header">
+							<div class="matter">
+								<h4 class="title small">
+									<i data-feather="edit-2" class="smi"></i> <a href="{{ .RelPermalink }}">{{.Title}}{{ if .Draft }}<sup class="draft-label">DRAFT</sup>{{ end }}</a>  <i data-feather="file" class="smi"></i> {{if eq .Dir "note/"}}NOTE  <i data-feather="clock" class="smi"></i>{{dateFormat "02 Jan 2006" .Date}} {{else}}PROJECT{{end}} 
+								</h4>
+								<span class="description">
+									{{ if isset .Params "description" }}
+										{{ .Description }}
+									{{ else if gt (len .RawContent) 100 }}
+										{{ slicestr .RawContent 0 100 }}...
+									{{ else }}
+										{{ .RawContent }}
+									{{ end }}
+								</span>
+							</div>
+						</div>
+					</div>
+				{{ end }}
+				{{ template "partials/paginator.html" . }}
+			</div>
+		</div>
+	</div>
+	{{ partial "footer.html" . }}
+</body>
+</html>
