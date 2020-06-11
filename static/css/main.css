@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: #2C9C91;
+    color: #26867C;
     text-decoration: none;
     word-break: break-word;
 }
@@ -123,7 +123,7 @@ blockquote em {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333;
+    color: #666;
     font-weight: 500;
     line-height: 1.3em;
     margin: 30px 0 20px 0;
