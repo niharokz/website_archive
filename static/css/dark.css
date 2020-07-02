@@ -33,7 +33,7 @@ html.dark h6 {
 }
 
 html.dark a,a:hover {
-  color: #40E0D0;
+  color: #35B264;
   text-decoration: none;
 }
 
@@ -43,16 +43,17 @@ html.dark table tbody tr:nth-of-type(even) {
 
 html.dark .site-description a,
 html.dark .site-description a:hover {
-  color: #40E0D0;
+  color: #35B264;
 }
 
 html.dark a:hover {
-  opacity: 0.8;
+  #opacity: 0.8;
+  color: #167149;
 }
 
 html.dark .post-tags .tags a {
   border: 1px solid #ddd;
-  color: #40E0D0;
+  color: #35B264;
 }
 
 html.dark .site-title a {
