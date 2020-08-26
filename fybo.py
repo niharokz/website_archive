@@ -15,7 +15,7 @@ home_layout_file = 'layout/home_layout.html'
 post_layout_file = 'layout/post_layout.html'
 home_path = 'public'
 content_path = 'content'
-
+resource_path = 'resource'
 
 def dir_copy(src, dest):
     try:
@@ -138,7 +138,6 @@ try :
     if os.path.exists(home_path):
         rmtree(home_path)
         os.makedirs(home_path)
-        dir_copy('resource',os.path.join(home_path,'resource')) 
 except OSError as e:
     print('Directory not created. Error: %s' % e)
 
@@ -193,3 +192,5 @@ create_page(home_path,post_filter(posts,{'showInHome' : True}))
 for page in pages:
     create_page(os.path.join(home_path,page.get('url')[1:]),post_filter(posts,{'type' : page.get('name')}))
 
+resource_path=os.path.join(home_path,resource_path)
+dir_copy('resource',resource_path) 
