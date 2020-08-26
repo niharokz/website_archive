@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>{{ title }} - {{ subtitle}} </title>
+		
+		<meta itemprop="name" content="{{ title }}">
+		<meta itemprop="description" content="{{ subtitle }}">
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:description" content="{{ subtitle }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{ url }}" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="{{ title }}"/>
+		<meta name="twitter:description" content=""/>
+
+		<link rel="shortcut icon" href="{{ favicon }}" />
+		<link rel="stylesheet" type="text/css" media="screen" href="{{ css }}" />
+
+	</head>
+	
+	<body>
+		<div class="main">
+			<div class="container wrapper">
+				<div class="header">
+					<div class="avatar">
+						<a href="{{ url }}">
+							<img src="{{ avatar }}" alt="{{ title }}" />
+						</a>
+					</div>
+					<nav class="nav">
+						<ul class="flat">
+							<li><a href="/"><h1 class="site-title">{{ title }}</h1></a></li>
+							{% for item in navigation %}
+							<li><a href="{{ item.url }}"><b>{% filter upper %} {{ item.name }} {% endfilter %}</b></a></li>
+							{% endfor %}
+							{% if js |length %}
+							<li>
+								<div class="toggle-container">
+            						<input type="checkbox" id="switch" class="dark-mode-checkbox" name="theme" /><label for="switch">Toggle</label>
+								</div>
+							</li>
+							{% endif %}
+						</ul>
+					</nav>
+				</div>
+
+				<div class="intro">
+					{{ about }}
+				</div>
+
+				<div class="recent-posts section">
+					<br>
+					<div class="posts">
+						{% for post in posts %}
+						<div class="post">
+							<div class="post-header">
+								<div class="matter">
+									<h4 class="title small">
+										<a href="{{ post.url }}">{{ post.title }}</a> 
+										<span>{% if show_type %}- {% filter upper %} {{ post.type }} {% endfilter %} {% endif %} - {{ post.date.strftime('%m-%d-%Y') }}</span>
+									</h4>
+									<p class="description">
+										{{ post.subtitle }}
+									</p>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+				{% if pagination.prev |length or pagination.next |length %}
+				<ul class="pagination">
+					<li class="page-item page-prev">
+						{% if pagination.prev |length %}
+						<a href="{{ pagination.prev }}" class="page-link" aria-label="Previous">
+							← Prev page
+						</a>
+						{% endif %}
+					</li>
+					<li class="page-item page-next">
+						{% if pagination.next |length %}
+						<a href="{{ pagination.next }}" class="page-link" aria-label="Next">
+							Next page →
+						</a>
+						{% endif %}
+					</li>
+				</ul>
+				{% endif %}
+			</div>
+			<div class="footer wrapper">
+				<nav class="nav">
+					<div> 
+						{% for item in footer %}
+						<a href="{{ item.url }}">{{ item.name }}</a> |
+						{% endfor %}
+						Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</body>
+	{% if js |length %}
+		<script src="{{ js }}"></script>
+	{% endif %}
+</html>
