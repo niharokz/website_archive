@@ -37,7 +37,7 @@ mode = "dark"
 
 # Main menu which appears below site header.
 [[menu.main]]
-name = "HOME"
+name = "ME"
 url = "/"
 weight = 1
 
