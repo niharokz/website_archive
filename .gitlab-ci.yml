@@ -1,7 +1,10 @@
+image: python
 pages:
   stage: build
+  before_script:
+  - pip install jinja2 markdown pyyaml
   script:
-  - echo 'do nothing'
+  - python fybo.py
   artifacts:
     paths:
     - public

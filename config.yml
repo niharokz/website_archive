@@ -9,11 +9,6 @@ no_of_post_per_page : 8
 home_about : "content/extra/home.md"
 
 header :
- -
-  name : "About"
-  url : "/resume"
-  type : "singlepage"
-  file : "content/extra/resume.md"
  - 
   name : "note"
   url : "/note"
@@ -26,6 +21,11 @@ header :
   name : "unrelated"
   url : "/unrelated"
   type : "list"
+ -
+  name : "Contact"
+  url : "/contact"
+  type : "singlepage"
+  file : "content/extra/contact.md"
 
 footer :
  -
@@ -33,10 +33,10 @@ footer :
   url : "/"
   type : "link"
  -
-  name : "Contact"
-  url : "/contact"
+  name : "Resume"
+  url : "/resume"
   type : "singlepage"
-  file : "content/extra/contact.md"
+  file : "content/extra/resume.md"
  -
   name : "Gitlab"
   url : "https://gitlab.com/niharokz"
