@@ -1,12 +1,7 @@
-
-image: monachus/hugo
-
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
-
 pages:
+  stage: deploy
   script:
-  - hugo
+  - echo 'Do nothing'
   artifacts:
     paths:
     - public
