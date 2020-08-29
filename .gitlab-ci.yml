@@ -1,10 +1,10 @@
 pages:
-  image: python:3.7
+  image: python:3.8
   stage: build
   before_script:
   - pip install jinja2 markdown2 pyyaml
   script:
-  - python fybo.py
+  - python nihar.py
   artifacts:
     paths:
     - public

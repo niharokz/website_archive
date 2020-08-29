@@ -17,6 +17,7 @@ home_path = 'public'
 content_path = 'content'
 resource_path = 'resource'
 
+
 def dir_copy(src, dest):
     try:
         copytree(src, dest)
@@ -131,7 +132,6 @@ def create_page(path,posts):
                     footer = footer
                  )
             )
-
 
 
 try :

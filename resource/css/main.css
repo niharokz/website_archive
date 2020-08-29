@@ -3,12 +3,12 @@
 :root {
     --bg-color: #FFFFFF;
     --text-color: #000000;
-    --greened: #42938C;
+    --dcyan: #42938C;
 }
 html[data-theme='dark'] {
     --bg-color : #000000;
     --text-color: #FFFFFF;
-    --greened: #42938C;
+    --dcyan: #42938C;
 }
 *, *:after, *:before {
   
@@ -46,16 +46,22 @@ fixed-text {
     font-size: 10px;
 }
 a {
-    color: var(--greened);
+    color: var(--dcyan);
     text-decoration: none;
     word-break: break-word;
+}
+.revert{
+    color: var(--text-color);
+}
+.revert:hover{
+    color: var(--dcyan);
 }
 a:hover {
     color: var(--text-color);
 }
 
 html,button,input,select,textarea {
-    color: var(--greened);
+    color: var(--dcyan);
 }
 
 ::-moz-selection {
@@ -548,7 +554,7 @@ label:after {
 	left: 3px;
 	width: 8px;
 	height: 8px;
-	background: var(--greened);
+	background: var(--dcyan);
 	border-radius: 45px;
 	transition: 0.3s;
 }

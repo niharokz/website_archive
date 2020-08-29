@@ -6,7 +6,7 @@ Hello everyone, I am Nihar, a Systems Engineer from India. I work at Edgeverve w
  <div class="cell -6of12">
 	<ul>
 		<li>
-			<a><b>fybo</b></a> : Static website generator
+			<a href="https://gitlab.com/niharokz/nihars.com"><b>this site</b></a> : Static website generator
 		</li>
 	</ul>
  </div>
