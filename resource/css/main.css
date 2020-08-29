@@ -42,9 +42,6 @@ body {
     color: var(--text-color);
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
-fixed-text {
-    font-size: 10px;
-}
 a {
     color: var(--dcyan);
     text-decoration: none;
