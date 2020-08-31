@@ -61,7 +61,7 @@
 								<div class="matter">
 									<h4 class="title small">
 										<a href="{{ post.url }}">{{ post.title }}</a> 
-										<span>{% if show_type %}- {% filter upper %} {{ post.type }} {% endfilter %} {% endif %} - {{ post.date.strftime('%m-%d-%Y') }}</span>
+										<span>{% if show_type %}- {% filter upper %} {{ post.type }} {% endfilter %} {% endif %} - {{ post.date.strftime('%d-%m-%Y') }}</span>
 									</h4>
 									<p class="description">
 										{{ post.subtitle }}
