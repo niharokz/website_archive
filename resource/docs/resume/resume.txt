@@ -1,0 +1,52 @@
+NIHAR SAMANTARAY
+
+Windhoek, Namibia - mail@nihars.com \- www.nihars.com
+
+Systems Engineer with 4.6 years of experience in the build and implementation of different services in the banking and financial sector. Around two years of client location work experience at Namibia (Africa).
+
+[ Java, Linux, SQL, vim, SOAP, Finacle, API, JS, Nim ]
+
+Work Experience
+
+Senior Systems Engineer - EdgeVerve
+
+Feb 2019 - Present
+
+Worked on the development, implementation, and support of a new payment system in client location. Joined the project when it was 33% developed. Below were my responsibilities to complete 100% of the development and implementation of the project :  
++ Development and enhancement of different types of XML generators using Java and Bash scripts which helped in achieving 60 TPS (transaction per second) from 2 TPS.  
++ Python script to validate account numbers of different banks and branches in the country.  
++ Creating different types of API (xml,lst,yml) to integrate with multiple pheripherals and systems.  
++ Automated the tracing of logs which failed due to unknown reason.
+  
+
+Systems Engineer - EdgeVerve
+
+Dec 2016 - Jan 2019
+
+Parallelly worked on 3 different projects under 3 different teams. System administrating, report generation, development of fronted menus were my major responsibility.  
++ Development and automation of cheque printer, account statement and 29 other types of reports needed by the client. Designed Frontend Menus using JS to display reports.  
++ WAS server installation and integrating it with a different version of Finacle.  
++ Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance' and many more.  
+ 
+
+Systems Engineer - Infosys
+
+Jun 2016 - Nov 2016
+
+Trained in basics of OOPS, data manipulation, UI desgin using python and java. Created a replica of e-commerce website.  
+
+
+Professional Skills
+
+> Java, shell scripting, python and many other scripting/programming languages.  
+> Well aware of Linux and some unix based server and its utilities. Database SQL, procedure, functions, complex queries.  
+> Version controlling using git/svn and defect tracking with Jira.  
+> Functionally well versed with payments and loans in core banking terminology.  
+> Scripting crontabs automation, CMD line apps, APIs XSD/WSDL validating.  
+
+
+Education and Achievements
+
+> Bachelor's degree in Computer Science Engineering (2016) from BPUT with 8.14 CGPA.  
+> Have online cerification on git and webservices.  
+

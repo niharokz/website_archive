@@ -6,14 +6,14 @@ Hello everyone, I am Nihar, a Systems Engineer from India. I work at Edgeverve w
  <div class="cell -6of12">
 	<ul>
 		<li>
-			<a href="https://gitlab.com/niharokz/nihars.com"><b>this site</b></a> : Static website generator
+			<a href="https://gitlab.com/niharokz/nihars.com"><b>this website</b></a> : The UI and backend for this website using minimal static page generator. 
 		</li>
 	</ul>
  </div>
  <div class="cell -6of12">
 	<ul>
 		<li>
-			<a href="/project/website_collection.html"><b>websites</b></a> : Yesteryear's collections of site
+			<a href="/project/website_collection.html"><b>Website's Collection</b></a> : Yesteryear's collections of website designs and blog sites.
 		</li>
 	</ul>
  </div>
