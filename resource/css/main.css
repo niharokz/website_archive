@@ -1,15 +1,25 @@
-@import url(//fonts.googleapis.com/css?family=Coda);
+/* @import url(//fonts.googleapis.com/css?family=Coda); */
+
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coda'), local('Coda'), url(https://fonts.gstatic.com/s/coda/v16/SLXHc1jY5nQ8FUUGa7SOz9M.woff2) format('woff2');
+  font-display: swap;
+}
 
 :root {
     --bg-color: #FFFFFF;
     --text-color: #000000;
     --dcyan: #42938C;
 }
+
 html[data-theme='dark'] {
     --bg-color : #000000;
     --text-color: #FFFFFF;
     --dcyan: #42938C;
 }
+
 *, *:after, *:before {
   
     box-sizing: border-box;
