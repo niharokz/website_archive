@@ -1,4 +1,4 @@
-#NIHARS.COM: BACKEND AND TEMPLATE
+# NIHARS.COM: BACKEND AND TEMPLATE
 
 ## Description
 This static webpage generator is to source https://nihars.com.
