@@ -42,9 +42,10 @@ footer :
   url : "https://gitlab.com/niharokz"
   type : "link"
  -
-  name : "Twitter"
-  url : "https://twitter.com/niharokz"
-  type : "link"
+  name : "Search"
+  url : "/search"
+  type : "singlepage"
+  file : "content/extra/search.md"
  -
   name : "LinkedIn"
   url : "https://www.linkedin.com/in/niharsamantaray/"
