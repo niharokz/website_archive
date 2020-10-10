@@ -238,7 +238,7 @@ def server():
 
 
 def nihars():
-    if (len(sys.argv)>1) or (sys.argv[1] not in ['publish','new','server']):
+    if (len(sys.argv)>2) or (sys.argv[1] not in ['publish','new','server']):
         print('Usage: \n\t nihars.py publish : to publish all files inside public directory')
         print('\t nihars.py new post_name : to create new post with name post_name (post name should be separated by "-" )')
         print('\t nihars.py server : to creata a local server at http://0.0.0.0:8000/')
