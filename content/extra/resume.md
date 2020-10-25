@@ -3,61 +3,55 @@ title : "Resume"
 subtitle : "Resume of Nihar Samantaray"
 ---
 <hr>
-<h1 style="line-height:0em" class="align-center">NIHAR SAMANTARAY</h1> 
-<p class="align-center"><em>Windhoek, Namibia - <a class="revert" href="mailto:mail@nihars.com">mail@nihars.com</a> - <a class="revert" href="https://nihars.com">www.nihars.com</a></em></p>
+
+NIHAR SAMANTARAY
+================
+
+Bangalore, India | mail@nihars.com | www.nihars.com | www.linkedin.com/in/niharsamantaray  
   
-<br>
-**Systems Engineer** with 4.6 years of experience in the build and implementation of different services in the banking and financial sector. Around two years of client location work experience at Namibia (Africa). 
-<p class="align-center">[ <em> Java, Linux, SQL, vim, SOAP, Finacle, API, JS, Nim  </em> ]</p>
+**Systems Engineer** with 4.6+ years of experience developing different financial solutions in the banking sector at client locations. Seeking a challenging software engineering position in an organization where my skills and experience can be fully harnessed.  
+  
+>   Algorithms and Data Structures, RDBMS with Oracle PL/SQL, Bash and Python scripting, Linux server administration, Automation tools, Java Interface development, API Integration, Finacle Core Banking
+  
 
-<h2> Work Experience </h2>
+Work Experience
+----------------
 
-<ul>
-<div style="text-align:left;">
-<h3 style="display:inline">Senior Systems Engineer - EdgeVerve</h3> 
-<span style="float:right;">Feb 2019 - Present</span>
-</div>
-Worked on the development, implementation, and support of a new payment system in client location. Joined the project when it was 33% developed. Below were my responsibilities to complete 100% of the development and implementation of the project :<br> 
- + Development and enhancement of different types of XML generators using Java and Bash scripts which helped in achieving 60 TPS (transaction per second) from 2 TPS.<br>
- + Python script to validate account numbers of different banks and branches in the country.<br>
- + Creating different types of API (xml,lst,yml) to integrate with multiple pheripherals and systems.<br>
- + Automated the tracing of logs which failed due to unknown reason.<br>
-</ul>
-<br>
-<ul>
-<div style="text-align:left;">
-<h3 style="display:inline">Systems Engineer - EdgeVerve</h3> 
-<span style="float:right;">Dec 2016 - Jan 2019</span>
-</div>
-Parallelly worked on 3 different projects under 3 different teams. System administrating, report generation, development of fronted menus were my major responsibility. <br> 
- + Development and automation of cheque printer, account statement and 29 other types of reports needed by the client. Designed Frontend Menus using JS to display reports.<br>
- + WAS server installation and integrating it with a different version of Finacle.<br>
- + Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance' and many more.<br>
-</ul>
-<br>
-<ul>
-<div style="text-align:left;">
-<h3 style="display:inline">Systems Engineer - Infosys</h3> 
-<span style="float:right;">Jun 2016 - Nov 2016</span>
-</div>
-Trained in basics of OOPS, data manipulation, UI desgin using python and java. Created a replica of e-commerce website. <br>
-</ul>
+**Senior Systems Engineer - EdgeVerve** | Windhoek, Namibia | Feb 2019 - Present 
 
+Worked on the development, implementation, and support of a new payment system for a client. Below were my responsibilities to complete the deployment of the project:  
 
-<h2> Professional Skills </h2>
-<ul>
-> Java, shell scripting, python and many other scripting/programming languages. <br>
-> Well aware of Linux and some unix based server and its utilities. Database SQL, procedure, functions, complex queries.<br>
-> Version controlling using git/svn and defect tracking with Jira.<br>
-> Functionally well versed with payments and loans in core banking terminology.<br>
-> Scripting crontabs automation, CMD line apps, APIs XSD/WSDL validating.<br>
-</ul>
+* Development and enhancement of different types of API generators using Java and Bash scripts that helped in achieving 60 TPS (transaction per second) from 2 TPS.  
+* Shell script to validate account numbers of different banks and branches in the country.  
+* Creating different types of API (XML, LST, CSV) to integrate with multiple peripherals and systems.  
+* Automated the tracing of logs which failed due to unknown reason.  
+   
+**Systems Engineer - EdgeVerve** | Bangalore, India | Dec 2016 - Jan 2019
 
-<h2> Education and Achievements </h2>
-<ul>
-> Bachelor's degree in Computer Science Engineering (2016) from BPUT with 8.14 CGPA. <br>
-> Have online cerification on <a class="revert" href="/resource/image/certificate/udemy_git.jpg">git</a> and webservices.<br>
-</ul>
+Parallelly worked on multiple short term projects. Data optimization, report generation, development of fronted menus were my responsibilities.  
+
+* Optimization of SQL procedures and queries to generate different accounting statements and reports.
+* Development of Finacle 11x Frontend Menus using Java and javascript to display reports.  
+* Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance'.  
+   
+**Systems Engineer - Infosys** | Mysore, India | Jun 2016 - Nov 2016
+
+Trained in basics of OOPS and DS programming with UX design to create a replica of an eCommerce website.  
+
+Technical and Functional Skills
+----------------
+* Shell scripting, Python scripting, Java development, Javascript debugging. 
+* Sound knowledge of relational database which uses PL/SQL procedure, functions and complex queries.
+* Well aware of Linux and some Unix based servers and its utilities.  
+* Version controlling using git/svn and defect tracking with Jira.  
+* Scripting automation, command-line apps, APIs XSD/WSDL validating, VBscript Excel to xml generators.  
+* Functionally well versed with payments and loans in core banking terms.
+
+Education and Projects
+----------------
+* Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT with 8.14 CGPA.  
+* Rust program to consume currency feeds and display the graph as a command-line app.
+
 
 <hr>
 

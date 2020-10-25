@@ -1,52 +1,37 @@
 NIHAR SAMANTARAY
 
-Windhoek, Namibia - mail@nihars.com \- www.nihars.com
+Bangalore, India | mail@nihars.com | www.nihars.com | www.linkedin.com/in/niharsamantaray
 
-Systems Engineer with 4.6 years of experience in the build and implementation of different services in the banking and financial sector. Around two years of client location work experience at Namibia (Africa).
+Systems Engineer with 4.6+ years of experience developing different financial solutions in the banking sector at client locations. Seeking a challenging software engineering position in an organization where my skills and experience can be fully harnessed.
 
-[ Java, Linux, SQL, vim, SOAP, Finacle, API, JS, Nim ]
+Algorithms and Data Structures, RDBMS with Oracle PL/SQL, Bash and Python scripting, Linux server administration, Automation tools, Java Interface development, API Integration, Finacle Core Banking
 
 Work Experience
 
-Senior Systems Engineer - EdgeVerve
+Senior Systems Engineer - EdgeVerve (Infosys Product Subsidiary) | Windhoek, Namibia | Feb 2019 - Present
+Worked on the development, implementation, and support of a new payment system for a client. Below were my responsibilities to complete the deployment of the project:
+    * Development and enhancement of different types of API generators using Java and Bash scripts that helped in achieving 60 TPS (transaction per second) from 2 TPS.
+    * Shell script to validate account numbers of different banks and branches in the country.
+    * Creating different types of API (XML, LST, CSV) to integrate with multiple peripherals and systems.
+    * Automated the tracing of logs which failed due to unknown reason.
 
-Feb 2019 - Present
+Systems Engineer - EdgeVerve | Bangalore, India | Dec 2016 - Jan 2019
+Parallelly worked on multiple short term projects. Data optimization, report generation, development of fronted menus were my responsibilities.
+    * Optimization of SQL procedures and queries to generate different accounting statements and reports.
+    * Development of Finacle 11x Frontend Menus using Java and javascript to display reports.
+    * Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance'.
 
-Worked on the development, implementation, and support of a new payment system in client location. Joined the project when it was 33% developed. Below were my responsibilities to complete 100% of the development and implementation of the project :  
-+ Development and enhancement of different types of XML generators using Java and Bash scripts which helped in achieving 60 TPS (transaction per second) from 2 TPS.  
-+ Python script to validate account numbers of different banks and branches in the country.  
-+ Creating different types of API (xml,lst,yml) to integrate with multiple pheripherals and systems.  
-+ Automated the tracing of logs which failed due to unknown reason.
-  
+Systems Engineer - Infosys | Mysore, India | Jun 2016 - Nov 2016
+Trained in basics of OOPS and DS programming with UX design to create a replica of an eCommerce website.
 
-Systems Engineer - EdgeVerve
+Technical and Functional Skills
+    * Shell scripting, Python scripting, Java development, Javascript debugging.
+    * Sound knowledge of relational database which uses PL/SQL procedure, functions and complex queries.
+    * Well aware of Linux and some Unix based servers and its utilities.
+    * Version controlling using git/svn and defect tracking with Jira.
+    * Scripting automation, command-line apps, APIs XSD/WSDL validating, VBscript Excel to xml generators.
+    * Functionally well versed with payments and loans in core banking terms.
 
-Dec 2016 - Jan 2019
-
-Parallelly worked on 3 different projects under 3 different teams. System administrating, report generation, development of fronted menus were my major responsibility.  
-+ Development and automation of cheque printer, account statement and 29 other types of reports needed by the client. Designed Frontend Menus using JS to display reports.  
-+ WAS server installation and integrating it with a different version of Finacle.  
-+ Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance' and many more.  
- 
-
-Systems Engineer - Infosys
-
-Jun 2016 - Nov 2016
-
-Trained in basics of OOPS, data manipulation, UI desgin using python and java. Created a replica of e-commerce website.  
-
-
-Professional Skills
-
-> Java, shell scripting, python and many other scripting/programming languages.  
-> Well aware of Linux and some unix based server and its utilities. Database SQL, procedure, functions, complex queries.  
-> Version controlling using git/svn and defect tracking with Jira.  
-> Functionally well versed with payments and loans in core banking terminology.  
-> Scripting crontabs automation, CMD line apps, APIs XSD/WSDL validating.  
-
-
-Education and Achievements
-
-> Bachelor's degree in Computer Science Engineering (2016) from BPUT with 8.14 CGPA.  
-> Have online cerification on git and webservices.  
-
+Education and Projects
+    * Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT with 8.14 CGPA.
+    * Rust program to consume currency feeds and display the graph as a command-line app.

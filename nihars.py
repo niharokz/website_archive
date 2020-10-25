@@ -234,7 +234,7 @@ def create_new_post():
     print("file created : "+ post_path)
     
 def server():
-    os.system("python3 -m http.server")
+    os.system("python3 -m http.server --directory public/")
 
 
 def nihars():
