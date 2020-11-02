@@ -64,7 +64,8 @@ a {
     color: var(--dcyan);
 }
 a:hover {
-    color: var(--text-color);
+    color: var(--bg-color);
+    background-color: var(--dcyan);
 }
 
 html,button,input,select,textarea {
