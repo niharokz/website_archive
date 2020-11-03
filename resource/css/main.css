@@ -477,8 +477,7 @@ ul {
     }
     .header .site-title {
         margin: 0 10px 10px 0;
-        line-height: 0.2em;
-        display: inline-block;
+        display: block;
     }
     .header .avatar img {
         display: none;
