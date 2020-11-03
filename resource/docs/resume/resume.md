@@ -1,46 +1,47 @@
-NIHAR SAMANTARAY
-================
+# NIHAR SAMANTARAY
 
-Bangalore, India | mail@nihars.com | www.nihars.com | www.linkedin.com/in/niharsamantaray
+## Systemes Engineer | Bangalore, India | mail@nihars.com | nihars.com
+  
+>   C/C++/Nim/Rust systems programming, Algorithms and Data Structures, RDBMS with Oracle PL/SQL, Bash and Python scripting, Linux server administration, Automation tools, Java Interface development, API Integration, Rust rewrite, Command Line Apps, Finacle Core Banking
+  
 
-**Systems Engineer** with 4.6+ years of experience developing different financial solutions in the banking sector at client locations. Seeking a challenging software engineering position in an organization where my skills and experience can be fully harnessed.
+### Experience
 
->   Algorithms and Data Structures, RDBMS with Oracle PL/SQL, Bash and Python scripting, Linux server administration, Automation tools, Java Interface development, API Integration, Finacle Core Banking
-
-Work Experience
-----------------
-
-**Senior Systems Engineer - EdgeVerve** (Infosys Product Subsidiary) | Windhoek, Namibia | Feb 2019 - Present 
+#### Senior Systems Engineer - EdgeVerve | Windhoek, Namibia | Feb 2019 - Present 
 
 Worked on the development, implementation, and support of a new payment system for a client. Below were my responsibilities to complete the deployment of the project:  
 
-* Development and enhancement of different types of API generators using Java and Bash scripts that helped in achieving 60 TPS (transaction per second) from 2 TPS.  
-* Shell script to validate account numbers of different banks and branches in the country.  
-* Creating different types of API (XML, LST, CSV) to integrate with multiple peripherals and systems.  
-* Automated the tracing of logs which failed due to unknown reason.  
+* Development and enhancement of different types of API generators and validators.
+* Implemented technical designs for 3 different types of financial functionalities.
+* Script to validate account numbers, branches, banks and other financial entities.  
+* Continuous deployment and development of features to enhance payment systems.
+* Integration and maintenance of the application to integrate with multiple peripherals.  
+* Automated monitoring of traces and logs to track failure due to multiple reasons.  
    
-**Systems Engineer - EdgeVerve** | Bangalore, India | Dec 2016 - Jan 2019
+#### Systems Engineer - EdgeVerve | Bangalore, India | Dec 2016 - Jan 2019
 
 Parallelly worked on multiple short term projects. Data optimization, report generation, development of fronted menus were my responsibilities.  
 
-* Optimization of SQL procedures and queries to generate different accounting statements and reports.
+* Code maintenance and performance monitoring of server generated reports and statements.
+* Creation of internally consistent and extensible CLI apps for internal tooling.  
+* Optimization and tuning of PLSQL stored procedures in oracle database.
+* Continuous learning of a lot of very powerful systems and improving upon them when it is needed.
 * Development of Finacle 11x Frontend Menus using Java and javascript to display reports.  
-* Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance'.  
    
-**Systems Engineer - Infosys** | Mysore, India | Jun 2016 - Nov 2016
+#### Systems Engineer - Infosys | Mysore, India | Jun 2016 - Nov 2016
 
-Trained in basics of OOPS and DS programming with UX design to create a replica of an eCommerce website.  
+Trained in basics of OOPS, DS programming, Java Spring boot, test driven development, Angular JS with UX design to create a replica of an eCommerce website.  
 
-Technical and Functional Skills
-----------------
-* Shell scripting, Python scripting, Java development, Javascript debugging. 
-* Sound knowledge of relational database which uses PL/SQL procedure, functions and complex queries.
+### Skills
+
+* Shell scripting, Python scripting, Java development, Javascript debugging, Rust rewrite. 
+* Sound knowledge of RDBMS which uses PL/SQL procedure, functions and complex queries.
 * Well aware of Linux and some Unix based servers and its utilities.  
-* Version controlling using git/svn and defect tracking with Jira.  
-* Scripting automation, command-line apps, APIs XSD/WSDL validating, VBscript Excel to xml generators.  
+* Version controlling using git/svn, Gitlab CD/CI, defect tracking with Jira.  
+* Scripting automation, APIs XSD/WSDL validating, VBscript Excel to xml generators.  
 * Functionally well versed with payments and loans in core banking terms.
 
-Education and Projects
-----------------
-* Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT with 8.14 CGPA.  
-* Rust program to consume currency feeds and display the graph as a command-line app.
+### Education
+
+* Infosys certified Java developer in 2016 (Training).
+* Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT, Rourkela, Odisha.  

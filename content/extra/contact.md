@@ -12,12 +12,12 @@ subtitle : ""
   <a href="https://t.me/niharokz">@niharokz</a>
  </div>
  <div class="cell -6of12">
-  <h2>Let's get social</h2>
+  <h2>Profiles elsewhere</h2>
   <a href="https://gitlab.com/niharokz">Gitlab</a><br>
   <a href="https://github.com/niharokz">Github</a><br>
   <a href="https://twitter.com/niharokz">Twitter</a> <br>
   <a href="https://www.linkedin.com/in/niharsamantaray/">LinkedIn</a><br>
-  <a href="https://www.facebook.com/niharokzz">Facebook</a>
+  <a href="https://www.facebook.com/niharokz">Facebook</a>
  </div>
 </div>
 

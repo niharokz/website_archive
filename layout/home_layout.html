@@ -59,8 +59,10 @@
 						<div class="post">
 							<div class="post-header">
 								<div class="matter">
+									<h4 class="title small">
 										<a href="{{ post.url }}"><b>{{ post.title }}</b></a> 
 										<span>{% if show_type %}- {% filter upper %} {{ post.type }} {% endfilter %} {% endif %} - {{ post.date.strftime('%d-%m-%Y') }}</span>
+									</h4>
 									<p class="description">
 										{{ post.subtitle }}
 									</p>

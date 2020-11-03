@@ -103,6 +103,11 @@ a img {
     border:none;
 }
 
+span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
 figure {
     margin: 0;
     text-align: center;
@@ -155,11 +160,11 @@ textarea {
 
 blockquote {
     margin-left: 1rem;
+    margin-top: 5px;
     font-style: italic;
-    font-size: 1.4rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
-    border-color: #333333;
+    border-color: var(--dcyan);
     padding-left: 20px;
 }
 
@@ -175,37 +180,10 @@ blockquote em {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);;
-    font-weight: 500;
+    font-weight: 900;
+    font-size: 17px;
     line-height: 1.3em;
     margin: 30px 0 20px 0;
-}
-
-h1 {
-    font-size: 1.4rem;
-}
-
-h2 {
-    font-size: 1.4rem;
-}
-
-h3 {
-    font-size: 1.2rem;
-}
-
-h4 {
-    font-size: 1.2rem;
-}
-
-h4 span {
-    font-size : 1rem;
-}
-
-h5 {
-    font-size: 1rem;
-}
-
-h6 {
-    font-size: .9rem;
 }
 
 .align-center {
@@ -294,7 +272,10 @@ ul {
 }
 .header .site-title {
     margin: 0 10px 10px 0;
-    line-height: 0.2em;
+    line-height: 1.2em;
+    font-size : 24px;
+    text-transform: lowercase;
+    font-weight: 500;
 }
 
 .header nav {
@@ -461,26 +442,6 @@ ul {
     html, body {
         height: auto;
       }
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    h4 {
-        font-size: 1rem;
-    }
-
-    h4 span{
-        font-size: 0.9rem;
-    }
-
     .container {
         margin-top: 10px;
     }
@@ -505,18 +466,18 @@ ul {
     .header {
         text-align: center;
     }
-    .header .site-title {
-        margin: 0 10px 10px 0;
-        line-height: 0.2em;
-    }
     
     .header nav {
-        display: flex;
         justify-content: space-between;
         margin: 0;
         padding: 0;
         min-width: 50px;
         margin-left: 15px;
+        display: inline-block;
+    }
+    .header .site-title {
+        margin: 0 10px 10px 0;
+        line-height: 0.2em;
         display: inline-block;
     }
     .header .avatar img {

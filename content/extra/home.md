@@ -1,4 +1,4 @@
-Hello everyone, I am Nihar, a Systems polyglot programmer from India. I work at Edgeverve where we build modern banking applications. I am passionate about amazing technology, ideas that matters, writing clean code, open source sourcecodes.
+Hello everyone! I am a Systems programmer from India. I work at Edgeverve where we build modern banking applications. I am passionate about amazing technology, ideas that matters, writing clean code, open source sourcecodes.
 
 <br>
 <p>Highlighted Projects</p>     
