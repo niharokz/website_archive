@@ -33,6 +33,10 @@ footer :
   url : "/"
   type : "link"
  -
+  name : "RSS"
+  url : "/rss.xml"
+  type : "link"
+ -
   name : "Resume"
   url : "/resume"
   type : "singlepage"
