@@ -27,6 +27,7 @@ def publish():
     config_file = 'config.yml'
     home_layout_file = 'layout/home_layout.html'
     post_layout_file = 'layout/post_layout.html'
+    rss_layout_file = 'layout/rss_layout.xml'
     home_path = 'public'
     content_path = 'content'
     resource_path = 'resource'
@@ -147,6 +148,26 @@ def publish():
                 )
 
 
+    def create_rss(path,posts):
+        rss_layout_template = Environment(loader=FileSystemLoader(searchpath='./'))
+        rss_template = rss_layout_template.get_template(rss_layout_file)
+        file_name='rss.xml'
+        home_about = markdown(about)
+        os.makedirs(path,exist_ok=True)
+        with open(os.path.join(path,file_name),'w') as output_file:
+            output_file.write(
+                rss_template.render(
+                    url = url,
+                    title = title,
+                    subtitle = subtitle,
+                    last_date = posts[0].get('date'),
+                    avatar = '/'+avatar,
+                    description = home_about,
+                    posts = posts
+                )
+            )
+
+
     try :
         if os.path.exists(home_path):
             rmtree(home_path)
@@ -204,6 +225,8 @@ def publish():
 
     for page in pages:
         create_page(os.path.join(home_path,page.get('url')[1:]),post_filter(posts,{'type' : page.get('name')}))
+    
+    create_rss(home_path,posts)
 
     resource_path=os.path.join(home_path,resource_path)
     dir_copy('resource',resource_path) 
