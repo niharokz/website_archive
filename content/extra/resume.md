@@ -55,5 +55,6 @@ Trained in basics of OOPS, DS programming, Java Spring boot, test driven develop
 
 
 -----------
-
+<br>
 <p class="align-center">This resume is also available in <a href="/resource/docs/resume/resume.md">markdown</a> | <a href="/resource/docs/resume/resume.txt">txt</a> | <a href="/resource/docs/resume/resume.pdf">pdf</a> | <a href="/resource/docs/resume/resume.html">html</a> <p>
+<br>
