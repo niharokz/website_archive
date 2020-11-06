@@ -134,6 +134,7 @@ def publish():
                         url = url,
                         title = title,
                         subtitle = subtitle,
+                        description = description,
                         css = '/'+css,
                         js = '/'+js,
                         avatar = '/'+avatar,
@@ -183,6 +184,7 @@ def publish():
     url = config.get('url')
     title = config.get('title')
     subtitle = config.get('subtitle')
+    description = config.get('description')
     css = config.get('css')
     js = config.get('js')
     avatar = config.get('avatar')

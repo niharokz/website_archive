@@ -1,7 +1,7 @@
 ---
 title : "What being an Indian means to me?"
 subtitle : "When one pronounces the word India, one is absorbed in the smell in spices, clothes, the smell of pickles and rainfall, the compelling music and dances, the cheerful faces of youthful people."
-showInHome : Yes 
+showInHome : No 
 date : 2020-08-15T15:00:46+02:00
 ---
 

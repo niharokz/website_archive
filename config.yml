@@ -1,6 +1,7 @@
 url : "https://nihars.com"
 title : "Nihar Samantaray"
 subtitle : "Linux enthusiast who build in internet"
+description : "Personal webpage of another Systems engineer who is interested on Open Source projects based for linux environments"
 css : "resource/css/main.css"
 js : "resource/js/dark_mode.js"
 favicon : "resource/image/favicon.ico"

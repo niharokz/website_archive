@@ -1,7 +1,7 @@
 ---
 title : "Hamaari Prithvi"
 subtitle : "A short poem in Hindi about our beautiful Earth in 2020. Our Earth is getting damaged due to Climate changes, bushfires, pollution, etc."
-showInHome : Yes 
+showInHome : No 
 date : 2020-01-26T15:00:46+02:00
 ---
 

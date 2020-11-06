@@ -2,24 +2,32 @@
 <html lang="en" data-theme="dark">
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>{{ title }} - {{ subtitle}} </title>
-		
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content=" {{ description }}">
+
 		<meta itemprop="name" content="{{ title }}">
-		<meta itemprop="description" content="{{ subtitle }}">
+		<meta itemprop="description" content="{{ description }}">
 		<meta property="og:title" content="{{ title }}" />
 		<meta property="og:description" content="{{ subtitle }}" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="{{ url }}" />
-		<meta name="twitter:card" content="summary"/>
-		<meta name="twitter:title" content="{{ title }}"/>
-		<meta name="twitter:description" content=""/>
+
+		<meta property="twitter:title" content="{{ title }}" />
+		<meta property="twitter:text:title" content="{{ title }}" />
+		<meta property="twitter:description" content="{{ description }}" />
+		<meta property="twitter:image" content="{{ url }}{{ avatar }}" />
+
+		<meta property="article:tag" content="linux" />
+		<meta property="article:tag" content="nihar samantaray" />
+		<meta property="article:tag" content="systems engineer" />
 
 		<link rel="shortcut icon" href="{{ favicon }}" />
 		<link rel="stylesheet" type="text/css" media="screen" href="{{ css }}" />
-
+		<link rel="alternate" type="application/atom+xml" title="Recent blog posts" href="/rss.xml">
 	</head>
 	
 	<body>

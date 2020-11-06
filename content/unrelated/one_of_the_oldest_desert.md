@@ -1,7 +1,7 @@
 ---
 title : "Kalahari Desert - One of the oldest deserts"
 subtitle : "Namibia -Kalahari desert is one of the oldest desert in the world. Some even say this is the oldest deserts in the world. A visit to this part of worth is worth it."
-showInHome : Yes 
+showInHome : No 
 date : 2019-04-26T15:00:46+02:00
 ---
 
