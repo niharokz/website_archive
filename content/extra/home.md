@@ -1,4 +1,4 @@
-Hello everyone! I am a Systems programmer from India. I work at Edgeverve where we build modern banking applications. I am passionate about amazing technology, ideas that matters, writing clean code, open source sourcecodes.
+Hello everyone! I am a Systems programmer from India. I work at Edgeverve where we build modern banking applications. This website is my online garden - an abridgment of the stuff I've learned and created over the years. I also write about amazing technology, ideas that matter, writing clean code, open-source source codes.
 
 <br>
 <p class="high">Highlighted Projects</p>     
@@ -13,7 +13,7 @@ Hello everyone! I am a Systems programmer from India. I work at Edgeverve where 
  <div class="cell -6of12">
 	<ul>
 		<li>
-			<a href="/project/website_collection.html"><b>Website's Collection</b></a> : Yesteryear's collections of website designs and blog sites.
+			<a href="/project/website_collection"><b>Website's Collection</b></a> : Yesteryear's collections of website designs and blog sites.
 		</li>
 	</ul>
  </div>

@@ -194,6 +194,7 @@ def publish():
     no_of_post = config.get('no_of_post_per_page')
     about = config.get("home_about")
     pages = post_filter(header,{'type' : 'list'})
+    pages += post_filter(footer,{'type' : 'list'})
     single_pages = post_filter(header,{'type' : 'singlepage'})
     single_pages += post_filter(footer,{'type' : 'singlepage'})
 
