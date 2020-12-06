@@ -17,7 +17,6 @@ subtitle : ""
   <a href="https://github.com/niharokz">Github</a><br>
   <a href="https://twitter.com/niharokz">Twitter</a> <br>
   <a href="https://www.linkedin.com/in/niharsamantaray/">LinkedIn</a><br>
-  <a href="https://www.facebook.com/niharokz">Facebook</a>
  </div>
 </div>
 
