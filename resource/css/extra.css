@@ -1,0 +1,16 @@
+
+:root {--bg: #FFF;--txt: #0d1d1c;--thm: #42938C }
+html[data-theme='dark'] { --bg : #000; --txt: #d9e9e8; --thm: #42938C }
+*, *:after, *:before { box-sizing: border-box}
+body { max-width: 660px } 
+textarea {background-color: var(--bg);color: var(--txt);width: 50%;min-height : 100px;overflow: auto}
+button {background-color: var(--bg);color: var(--txt);border: solid 1px;padding: 5px;margin: auto;display: inline-block}
+.align-center {text-align: center}
+.grid {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap}
+.cell.\-6of12 {-ms-flex: 0 0 50%;flex: 0 0 50%;padding: 10px}
+.cell.\-9of12 {-ms-flex: 0 0 75%;flex: 0 0 75%;padding: 10px}
+.cell.\-3of12 {-ms-flex: 0 0 25%;flex: 0 0 25%;padding: 10px}
+@media (max-width: 720px) {
+    .grid {-ms-flex-direction: column;flex-direction: column}
+    .cell {-ms-flex: 0 0 auto;flex: 0 0 auto    }
+}
