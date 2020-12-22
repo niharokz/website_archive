@@ -1,7 +1,6 @@
 ---
 title : "What is your language of choice?"
 subtitle : "The axiom of programming is to solve problems. The motto should be to solve the problem fast and efficiently."
-showInHome : Yes 
 date : 2020-08-29T18:00:46+02:00
 
 ---

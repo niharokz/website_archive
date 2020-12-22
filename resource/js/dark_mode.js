@@ -1,26 +1,19 @@
 let darkMode = localStorage.getItem('darkMode'); 
-var checkbox = document.querySelector('input[name=theme]');
 if(darkMode!='enabled') {
- document.documentElement.setAttribute('data-theme', 'light')
- checkbox.checked = true
-} else {
- document.documentElement.setAttribute('data-theme', 'dark')
- checkbox.checked = false 
-}
-checkbox.addEventListener('change', function() {
- if(this.checked) {
-  trans()
-  document.documentElement.setAttribute('data-theme', 'light')
-  localStorage.setItem('darkMode', null);
+  document.documentElement.setAttribute('data-theme', 'light');
+  document.getElementById("theme").innerHTML = "dark-mode";
  } else {
-  trans()
-  document.documentElement.setAttribute('data-theme', 'dark')
-  localStorage.setItem('darkMode', 'enabled');
+  document.documentElement.setAttribute('data-theme', 'dark');
+  document.getElementById("theme").innerHTML = "light-mode";
+}
+function change_theme(){
+  if(document.getElementById("theme").innerHTML == "dark-mode"){
+    document.documentElement.setAttribute('data-theme', 'dark')
+    localStorage.setItem('darkMode', 'enabled');
+    document.getElementById("theme").innerHTML = "light-mode";
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light')
+    localStorage.setItem('darkMode', null);
+    document.getElementById("theme").innerHTML = "dark-mode";
   }
-})
-let trans = () => {
- document.documentElement.classList.add('transition');
- window.setTimeout(() => {
-  document.documentElement.classList.remove('transition')
- }, 1000)
 }
