@@ -13,7 +13,7 @@ h2, h3, h4, h5, h6, h7 {font-size: large }
 a { color: var(--thm); text-decoration: none; padding : 2px }
 a:hover { color: var(--bg); background-color: var(--thm); text-decoration: none }
 header, footer, article h2, article p:last-child { text-align: center }
-ul {list-style-type: '-- ';}
+ul { padding-left: 20px; list-style-type: '-- ';}
 
 /* code */
 pre {
