@@ -7,7 +7,7 @@
 }
 :root {--bg: #FFF;--txt: #0d1d1c;--thm: #42938C }
 html[data-theme='dark'] { --bg : #000; --txt: #d9e9e8; --thm: #42938C }
-body { max-width: 600px; margin: 1em auto; padding:1em; text-align: justify; font-family: "Coda", Helvetica, sans-serif; color: var(--txt); background-color: var(--bg)}
+body { max-width: 600px; margin: 1em auto; padding:1em; text-align: justify;line-height: 1.6; font-family: "Coda", Helvetica, sans-serif; color: var(--txt); background-color: var(--bg)}
 h1 { font-size: x-large; font-weight: 600}
 h2, h3, h4, h5, h6, h7 {font-size: large }
 a { color: var(--thm); text-decoration: none; padding : 2px }
