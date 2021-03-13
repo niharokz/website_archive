@@ -18,7 +18,6 @@ ul { padding-left: 20px; list-style-type: '-- ';}
 /* code */
 pre {
   border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
 }
