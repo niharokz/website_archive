@@ -32,10 +32,9 @@
 
 <body>
 <header>
-<h1><a href="/">{% filter lower %} {{ title }} {% endfilter %}</a></h1>
+<h1>{{ post_title }} </h1>  
 </header>
 <article>
-<h2>{{ post_title }} </h2>  
 {{ article }}
 {% if date %} 
 <p># Posted on <time>{{ date.strftime('%d %b %Y') }}.</time></p>

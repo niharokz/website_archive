@@ -24,7 +24,6 @@ TITLE = "Nihar Samantaray"
 URL = "https://nihars.com"
 DESC = "Personal webpage of another Systems engineer who is interested on Open Source projects based for linux environments"
 CSS = "resource/css/main.css"
-JS= "resource/js/dark_mode.js"
 FAV = "resource/image/favicon.ico"
 PHT = "resource/image/nihar.jpg"
 MAIL = "mail@nihars.com"
@@ -84,7 +83,6 @@ def create_page(template,post_detail,md,filename):
                 metad = post_meta,
                 url = path.join(URL,post_file),
                 css = '/'+CSS,
-                js = '/'+JS,
                 favicon = '/'+FAV,
                 photo = URL+'/'+PHT,
                 article = markdown(md),

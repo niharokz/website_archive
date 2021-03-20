@@ -135,4 +135,5 @@ lxappearance
 
 extra package :
 opusfile opus-tools libopusenc opus cmus
+openssh
 
