@@ -16,6 +16,6 @@ This static webpage generator is to source https://nihars.com.
 * nihars.py :	Main file. Programs start from here.
 
 ## Usage:
-* nihars.py publish: to publish all files inside a public directory
-* nihars.py new post_name: to create a new post with name post_name (post name should be separated by "-" )
-* nihars.py server : to creata a local server at 0.0.0.0:8000
+* nihars.py : to publish all files inside a public directory
+* create_note.sh : to create a new post with name post
+* server.sh : to creata a local server at 0.0.0.0:8000

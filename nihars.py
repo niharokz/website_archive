@@ -129,6 +129,7 @@ for note in glob(path.join(content_path,"note","*.md")):
         post_url = create_page(note_template,post_detail,md,note)
         ymd = post_detail
         ymd.update({'url' : '/'+post_url})
+        ymd.update({'note' : md})
         posts += [ymd]
 
 #Sort posts based on date in descending order
