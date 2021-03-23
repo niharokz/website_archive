@@ -30,7 +30,7 @@
             <link>{{ url}}{{ post.url }}</link>
             <pubDate>{{ post.date.strftime('%a, %d %b %Y %H:%M:%S %z') }}</pubDate>
             <guid isPermaLink="false">{{ url }}{{ post.url }}</guid>
-			<description><![CDATA[{{ post.subtitle}} - {{ post.note }} ]]></description>
+			<description><![CDATA[{{ post.subtitle }} - {{ post.note }} ]]></description>
         </item>
         {% endfor %}
 

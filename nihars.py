@@ -9,7 +9,7 @@
 #       ╚═╝░░╚══╝╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝
 #
 #       DRAFTED BY NIHAR SAMANTARAY ON 13-12-20. [https://nihars.com]
-#       SOURCE [nihars.py] LAST MODIFIED ON 13-03-21
+#       SOURCE [nihars.py] LAST MODIFIED ON 23-03-21
 
 # External imports
 from shutil import copytree, rmtree, copy
@@ -129,7 +129,7 @@ for note in glob(path.join(content_path,"note","*.md")):
         post_url = create_page(note_template,post_detail,md,note)
         ymd = post_detail
         ymd.update({'url' : '/'+post_url})
-        ymd.update({'note' : md})
+        ymd.update({'note' : markdown(md)})
         posts += [ymd]
 
 #Sort posts based on date in descending order
