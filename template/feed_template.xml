@@ -24,7 +24,7 @@
 	        <height>32</height>
         </image>
 
-        {% for post in posts %}
+		{% for post in posts %}{% if post.showInHome is undefined%}
         <item>
             <title>{{ post.title }}</title>
             <link>{{ url}}{{ post.url }}</link>
@@ -32,7 +32,7 @@
             <guid isPermaLink="false">{{ url }}{{ post.url }}</guid>
 			<description><![CDATA[{{ post.subtitle }} - {{ post.note }} ]]></description>
         </item>
-        {% endfor %}
+		{% endif %}{% endfor %}
 
     </channel>
 </rss>
