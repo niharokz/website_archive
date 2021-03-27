@@ -3,23 +3,23 @@ title: "Yesteryears Websites"
 subtitle: "Not a front end developer. But this is something I grew up with. Here is my collection of a few random websites/blogs from yesteryears."
 date: 2017-01-26T12:24:55+02:00
 meta : '
-<link rel="stylesheet" type="text/css" media="screen" href="/resource/css/extra.css" /> 
+<link rel="stylesheet" type="text/css" media="screen" href="extra.css" /> 
 '
 ---
 
 Not a front end developer. But this is something I grew up with. Here is my collection of a few random websites/blogs from yesteryears.    
 <div class ="grid">
  <div class="cell -6of12">
-	<img src="/resource/image/project/ipsmun.jpg" alt="Indian Peace Summit 2016"><br>
-	<img src="/resource/image/project/dreamagri.jpg" alt="Dream Agritech Pvt. Ltd."><br>
-	<img src="/resource/image/project/abhiyantriki.jpg" alt="AbhiYantriki"><br>
-	<img src="/resource/image/project/pmun.jpg" alt="pmun">
+	<img src="/website_collection/ipsmun.jpg" alt="Indian Peace Summit 2016"><br>
+	<img src="/website_collection/dreamagri.jpg" alt="Dream Agritech Pvt. Ltd."><br>
+	<img src="/website_collection/abhiyantriki.jpg" alt="AbhiYantriki"><br>
+	<img src="/website_collection/pmun.jpg" alt="pmun">
  </div>
  <div class="cell -6of12">
-	<img src="/resource/image/project/gpmun.jpg" alt="Global Peace Conference 2015"><br>
-	<img src="/resource/image/project/innovizion.jpg" alt="Innovizion"><br>
-	<img src="/resource/image/project/khordhamun.jpg" alt="The Khordha Conference"><br>
-	<img src="/resource/image/project/wapaviator.jpg" alt="Wapsite">
+	<img src="/website_collection/gpmun.jpg" alt="Global Peace Conference 2015"><br>
+	<img src="/website_collection/innovizion.jpg" alt="Innovizion"><br>
+	<img src="/website_collection/khordhamun.jpg" alt="The Khordha Conference"><br>
+	<img src="/website_collection/wapaviator.jpg" alt="Wapsite">
  </div>
 </div>
 

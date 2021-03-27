@@ -9,7 +9,7 @@
 #       ╚═╝░░╚══╝╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝
 #
 #       DRAFTED BY NIHAR SAMANTARAY ON 13-12-20. [https://nihars.com]
-#       SOURCE [nihars.py] LAST MODIFIED ON 23-03-21
+#       SOURCE [publish.py] LAST MODIFIED ON 27-03-21
 
 # External imports
 from shutil import copytree, rmtree, copy
@@ -23,9 +23,9 @@ from markdown2 import markdown
 TITLE = "Nihar Samantaray"
 URL = "https://nihars.com"
 DESC = "Personal webpage of another Systems engineer who is interested on Open Source projects based for linux environments"
-CSS = "resource/css/main.css"
-FAV = "resource/image/favicon.ico"
-PHT = "resource/image/nihar.jpg"
+CSS = "main.css"
+FAV = "favicon.ico"
+PHT = "nihar.jpg"
 MAIL = "mail@nihars.com"
 
 # Non mutable variables
@@ -106,8 +106,7 @@ def readmd(md):
 # Recreated home path with resource
 if path.exists(home_path):
     rmtree(home_path)
-makedirs(home_path)
-copytree("resource", path.join(home_path,resource_path))
+copytree("resource", home_path)
 
 #Create all pages from content/note
 posts = []

@@ -17,5 +17,5 @@ This static webpage generator is to source https://nihars.com.
 
 ## Usage:
 * nihars.py : to publish all files inside a public directory
-* create_note.sh : to create a new post with name post
-* server.sh : to creata a local server at 0.0.0.0:8000
+* create_note.py : to create a new post with name post
+* server.py : to creata a local server at 0.0.0.0:8000

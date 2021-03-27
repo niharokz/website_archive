@@ -3,8 +3,8 @@ title : "Two List Comparer : Union, Join, Intersection"
 subtitle : "Compare two lists, remove duplicates, check unions and intersections, unique sets, based on vanilla javascript"
 date : 2020-12-06T21:42:31Z
 meta : '
-<link rel="stylesheet" type="text/css" media="screen" href="/resource/css/extra.css" /> 
-<script src="/resource/js/two_list_compare.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/extra.css" /> 
+<script src="/two_list_compare.js"></script>
 '
 ---
 
