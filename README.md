@@ -4,6 +4,7 @@
 This static webpage generator is to source https://nihars.com.
 
 ## Prerequisites
+''' pip install pyyaml, jinja2, markdown2 '''
 * PyYAML:	To consume the config file and header of blog posts.
 * jinja2:	Templating engine
 * markdown2:	To convert markdown to HTML
