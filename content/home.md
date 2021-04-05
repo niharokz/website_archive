@@ -6,6 +6,6 @@
 <li><a href="/website_collection.html">Yesteryear's collections of website designs, interface, blog sites.</a></li>
 <li><a href="https://gitlab.com/niharokz/nihars.com">The source of this website using minimal static page generator.</a></li>
 </ul> 
-\# <b>note</b>
 
+\# <b>note</b>
 

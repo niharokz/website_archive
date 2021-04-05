@@ -1,5 +1,5 @@
 pages:
-  image: python:3.8
+  image: python:3.9
   stage: build
   before_script:
   - pip install jinja2 markdown2 pyyaml
