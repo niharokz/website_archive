@@ -8,7 +8,7 @@ This article is about how to sync Gitlab and Github directly from the command li
 
 But if you want to keep a mirror copy of Gitlab in Github or vice-versa, this article [Docs Github](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html) is for you.
 
-**Adding SSH-keys to your local machine. [optional step]**
+## Adding SSH-keys to your local machine. [optional step]
 
 Generate SSH keys for Gitlab and Github.
 	
@@ -38,7 +38,7 @@ Edit ~/.ssh/config  with below content
 		IdentityFile ~/.ssh/id_rsa_github
 
 
-**Configure repositories and remotes**
+## Configure repositories and remotes
 
 Clone the original repository from Gitlab/Github to your local machine
 
@@ -60,6 +60,3 @@ The command should return something like
 	origin	https://gitlab.com/username/repository_name.git (push)
 
 Now you can just use git push and it will push on all remote.
-
-
-

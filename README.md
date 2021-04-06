@@ -14,9 +14,11 @@ This static webpage generator is to source https://nihars.com.
 * resource:	Location to store all CSS, js, image data.
 * content:	All markdown files are stored here.
 * layout:	Layouts for different HTML pages are kept here.
-* nihars.py :	Main file. Programs start from here.
+* nihars.py:	Main file. Programs start from here.
+* gem.py: Main gemini file. Gemini capsules will be created from here.
 
 ## Usage:
-* nihars.py : to publish all files inside a public directory
-* create_note.py : to create a new post with name post
-* server.py : to creata a local server at 0.0.0.0:8000
+* nihars.py: to publish all files inside a public directory
+* gem.py: to publish all gemini capsules inside capsule directory
+* create_note.py: to create a new post with name post
+* server.py: to creata a local server at 0.0.0.0:8000

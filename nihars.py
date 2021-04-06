@@ -29,7 +29,7 @@ PHT = "nihar.jpg"
 MAIL = "mail@nihars.com"
 
 # Non mutable variables
-no_of_post_home = 8
+no_of_post_home = 10
 note_template = 'template/note_template.html'
 home_template = 'template/home_template.html'
 feed_template = 'template/feed_template.xml'
@@ -93,6 +93,7 @@ def create_page(template,post_detail,md,filename):
                 last_date = last_date
             )
         )
+    output_file.close()
     return post_file
 
 
