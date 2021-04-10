@@ -5,5 +5,5 @@
 <a rel="me" href="https://fosstodon.org/@nihars">mastodon</a> //
 <a href="https://twitter.com/niharokz">twitter</a> //
 <a href="https://gitlab.com/niharokz">gitlab</a> //
-<a href="https://proxy.vulpes.one/gemini/capsule.nihars.com">gemini</a> //
+<a href="https://proxy.vulpes.one/gemini/nihars.in">gemini</a> //
 <a href="/privacy.html">privacy</a>

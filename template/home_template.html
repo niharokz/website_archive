@@ -39,7 +39,7 @@
 {{article}}
 <ul>
 {% for post in posts %}{% if post.showInHome is undefined%}
-<li><a href="{{ post.url }}">{{ post.title }}</a> - {% filter lower %} {{ post.date.strftime('%d %b %Y') }} {% endfilter %}</li>
+<li>{{ post.date.strftime('%d %m %Y') }} ; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endif %}{% endfor %}
 {% if nextpage %} <a href="{{ nextpage }}">Older Notes >> </a> {% endif %}
 </ul>

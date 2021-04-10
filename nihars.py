@@ -9,7 +9,7 @@
 #       ╚═╝░░╚══╝╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝
 #
 #       DRAFTED BY NIHAR SAMANTARAY ON 13-12-20. [https://nihars.com]
-#       SOURCE [publish.py] LAST MODIFIED ON 27-03-21
+#       SOURCE [nihars.py] LAST MODIFIED ON 09-04-21
 
 # External imports
 from shutil import copytree, rmtree, copy
@@ -29,7 +29,7 @@ PHT = "nihar.jpg"
 MAIL = "mail@nihars.com"
 
 # Non mutable variables
-no_of_post_home = 10
+no_of_post_home = 20
 note_template = 'template/note_template.html'
 home_template = 'template/home_template.html'
 feed_template = 'template/feed_template.xml'
@@ -139,4 +139,5 @@ posts= sorted(posts, key=lambda post :  post['date'], reverse=True)
 create_page(home_template,None,readmd(home_md),"index.html")
 create_page(home_template,None,readmd(archive_md),"archive.html")
 create_page(feed_template,None,readmd(home_md),"rss.xml")
+
 
