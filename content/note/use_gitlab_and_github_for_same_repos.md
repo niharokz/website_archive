@@ -1,7 +1,7 @@
 ---
 title : "Use GitLab and GitHub together for the same repository" 
 subtitle : "use gitlab and github together for same repository on one machine" 
-date : 2021-02-14T12:37:37+05:30
+date : 2021-02-14
 ---
 
 This article is about how to sync Gitlab and Github directly from the command line using git pull or push commands. Unlike mirror repositories, these repositories will be independent of each other. We also don't need different remote names for these repositories.

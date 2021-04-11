@@ -1,7 +1,7 @@
 ---
 title : "Hello, World"
 subtitle : "Writing the first post for a blog is often a struggle, isn't it? After spending a lot of time thinking and googling, I concluded that there is no foolproof way to start a blog."
-date : 2016-06-06T18:00:46+02:00
+date : 2016-06-06
 
 ---
 

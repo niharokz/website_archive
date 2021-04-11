@@ -1,7 +1,7 @@
 ---
 title: Why I Really Really Really Love VIM!
 subtitle: VIM or NeoVIM! Simple yet powerful text editor that can become an obsession in no time. This note is a reference for the most common commands.
-date: 2017-12-18T19:34:59+05:30
+date: 2017-12-18
 ---
 
 I have been using vi editor for the last half-decade. But it was when I feel lazy to copy files from the servers to local and edit them. I was aware of vim but never bothered to use it.    

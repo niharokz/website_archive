@@ -1,7 +1,7 @@
 ---
 title : "Two List Comparer : Union, Join, Intersection"
 subtitle : "Compare two lists, remove duplicates, check unions and intersections, unique sets, based on vanilla javascript"
-date : 2020-12-06T21:42:31Z
+date : 2020-12-06
 showInHome : "No"
 meta : '
 <link rel="stylesheet" type="text/css" media="screen" href="/extra.css" /> 

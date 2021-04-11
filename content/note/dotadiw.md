@@ -1,7 +1,7 @@
 ---
 title : "DOTADIW : Do One Thing And Do It Well."
 subtitle : "As hardware is becoming more capable and acceptable, developers are getting more freedom to add whatever features/bloat they want. As a result, modern-day software is becoming more and more bloated."
-date : 2019-03-26T18:00:46+02:00
+date : 2019-03-26
 
 ---
 

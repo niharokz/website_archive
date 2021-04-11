@@ -1,7 +1,7 @@
 ---
 title : "What is your language of choice?"
 subtitle : "The axiom of programming is to solve problems. The motto should be to solve the problem fast and efficiently."
-date : 2020-08-29T18:00:46+02:00
+date : 2020-08-29
 ---
 
 Over the last decade, I have gone through C, Python, Rust, Haskell, Go, Nim, and many others. Different languages have different use-cases. Some may prefer Python for its enormous libraries, some will go with Java for enterprise usages, some may love old school C for its hardware support, some may use Haskell for functional programming.
