@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^notes\.nihars\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.notes\.nihars\.in$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/nihars\.in\/notes\/index\.html" [R=301,L]
+
